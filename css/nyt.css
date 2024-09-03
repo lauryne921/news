@@ -1,0 +1,23 @@
+.nyt-page {
+    color: white;
+}
+
+#wrapper-nyt {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+#image {
+    height: 200px;
+}
+
+#card {
+    width: 250px;
+    background-color: rgb(232, 232, 232);
+    padding: 2rem;
+}
+
+#url {
+    color: black;
+}
