@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/generic.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <title>World News</title>
+</head>
+<body>
+    <header>
+        <h1>World News</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a id="home-page" href="./" class="home-page">Home</a>
+                </li>
+                <li>
+                    <a href="./html/nyt.html">NYT</a>
+                </li>
+                <li>
+                    <a href="./html/guardians.html">Guardians</a>
+                </li>
+                <li>
+                    <a href="./html/gnews.html">Gnews</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div id="wrapper-home">
+            </div>
+            <div id="wrapper-articles"></div>
+            <template id="home-template">
+                <div class="card">
+                    <h4 id="title"></h4>
+                    <div id="image"></div>
+                    <div id="url"></div>
+                </div>
+            </template>
+            <template id="articles-template">
+                <div class="card">
+                    <h2 id="title-article"></h2>
+                    <div id="content"></div>
+                    <div id="description"></div>
+                    <div id="image-article"></div>
+                    <div id="url-article"></div>
+                </div>
+            </template>
+        </section>
+    </main>
+    <script src="./js/generic.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
