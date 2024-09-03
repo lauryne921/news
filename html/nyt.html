@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/generic.css">
+    <link rel="stylesheet" href="../css/nyt.css">
+    <title>New York Times</title>
+</head>
+<body>
+    <header>
+        <h1>World News</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a id="home-page" href="../">Home</a>
+                </li>
+                <li>
+                    <a href="./nyt.html" class="nyt-page">NYT</a>
+                </li>
+                <li>
+                    <a href="./guardians.html">Guardians</a>
+                </li>
+                <li>
+                    <a href="./gnews.html">Gnews</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>New York Times</h1>
+        <section id="home">
+            <div id="wrapper-nyt">
+            </div>
+            <template id="nyt-template">
+                <div id="card">
+                    <h2 id="title"></h2>
+                    <div id="content"></div>
+                    <div id="publised-date"></div>
+                    <div id="image"></div>
+                    <div id="url"></div>
+                    <div id="written-by"></div>
+                </div>
+            </template>
+        </section>
+    </main>
+    <script src="../js/nyt.js"></script>
+</body>
+</html>

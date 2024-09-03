@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/generic.css">
+    <link rel="stylesheet" href="../css/guardians.css">
+    <title>The Guardians</title>
+</head>
+<body>
+    <header>
+        <h1>World News</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a id="home-page" href="../">Home</a>
+                </li>
+                <li>
+                    <a href="./nyt.html">NYT</a>
+                </li>
+                <li>
+                    <a href="./guardians.html" class="guardians-page">Guardians</a>
+                </li>
+                <li>
+                    <a href="./gnews.html">Gnews</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>The Guardian</h1>
+        <section id="home">
+            <div id="page-choice">
+                <div id="movies" class="choice">Movies</div>
+                <div id="business" class="choice">Business</div>
+                <div id="world" class="choice">World</div>
+                <div id="uk" class="choice">UK</div>
+                <div id="us" class="choice">US</div>
+                <div id="australia" class="choice">Australia</div>
+                <div id="music" class="choice">Music</div>
+                <div id="travel" class="choice">Travel</div>
+                <div id="food" class="choice">Food</div>
+                <div id="marvel" class="choice">Marvel</div>
+                <div id="sport" class="choice">Sport</div>
+            </div>
+            <div id="wrapper-guardian">
+            </div>
+            <template id="guardian-template">
+                <div id="card">
+                    <h3 id="title"></h3>
+                    <div id="url"></div>
+                    <div id="image"></div>
+                    <div id="publised-date"></div>
+                </div>
+            </template>
+        </section>
+    </main>
+    <script src="../js/guardians.js"></script>
+</body>
+</html>
